@@ -19,50 +19,60 @@
     <title>Andy Beable</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Andy Beable</a>
+          <a class="navbar-brand" href="#"></a>
           <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarNav"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Work</a>
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="/assets/cv.pdf"
-                  target="_blank"
-                  download
-                >
-                  Resume
-                </a>
-              </li>
-            </ul>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Work</a>
+              <a class="nav-link" href="#">Contact</a>
+            </div>
           </div>
         </div>
       </nav>
     </header>
+    <main>
+      <section class="header">
+        <div class="header__container">
+          <h1 class="header__title">I'm Andy Beable</h1>
+          <p class="header__copy">
+            A
+            <span>Web Developer</span>
+            with a passion for creating shit.
+          </p>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <div class="about__details__container">
+            <div class="about__info">
+              <h2 class="about__header">About Me</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Molestiae, autem perferendis impedit aut id magnam, animi nihil
+                unde dolores sed vitae quis illo voluptatibus quam repellat
+                necessitatibus placeat expedita quod?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="work"></section>
+    </main>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
