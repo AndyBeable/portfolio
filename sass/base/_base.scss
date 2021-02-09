@@ -7,3 +7,10 @@
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
+.icon {
+  font-size: 3rem;
+}
+.icon:not(:last-of-type) {
+  margin-right: 1rem;
+}

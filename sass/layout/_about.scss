@@ -2,4 +2,10 @@
   .container {
     padding: 3rem 1rem;
   }
+
+  &__contact__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

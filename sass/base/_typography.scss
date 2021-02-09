@@ -1,0 +1,16 @@
+.heading {
+  &__primary {
+    color: #ffffff;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+
+  &__secondary {
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+  }
+  &__tertiary {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+}
