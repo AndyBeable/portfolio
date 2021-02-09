@@ -27,10 +27,11 @@ body {
   color: #ffffff;
   font-size: 1.5rem; }
 
-.about {
-  text-align: center; }
-  .about .container {
-    padding: 3rem 1rem; }
+.about .container {
+  padding: 3rem 1rem; }
+
+.work__wrapper {
+  margin-bottom: 3rem; }
 
 .work__img__wrapper {
   margin-bottom: 2.5rem; }
