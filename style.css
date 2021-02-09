@@ -4,17 +4,7 @@
   box-sizing: border-box; }
 
 body {
-  font-family: 'Open Sans', sans-serif; }
-
-.button {
-  display: inline-block;
-  color: #ffff;
-  background-color: #ff9fdb;
-  padding: 12px 16px;
-  border-radius: 8px;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 700; }
+  font-family: 'Montserrat', sans-serif; }
 
 .header__container {
   background-image: url(/assets/header.jpg);
@@ -29,83 +19,22 @@ body {
   text-align: center; }
 
 .header__title {
-  color: #ffffff; }
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 600; }
 
 .header__copy {
-  color: #ffffff; }
+  color: #ffffff;
+  font-size: 1.5rem; }
 
-.about .container {
-  padding: 3rem 1rem; }
+.about {
+  text-align: center; }
+  .about .container {
+    padding: 3rem 1rem; }
 
-.about__profile {
-  height: 20%;
+.work__img__wrapper {
+  margin-bottom: 2.5rem; }
+
+.work__img {
+  height: auto;
   width: 100%; }
-
-.work__project__dropped {
-  background-image: url(/assets/dropped.png);
-  background-position: center;
-  background-size: cover;
-  height: 10rem;
-  position: relative; }
-
-.work__project__dropped::after {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  background-color: black;
-  opacity: 0.8; }
-
-.content .content-overlay {
-  background: rgba(0, 0, 0, 0.7);
-  position: absolute;
-  height: 99%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  opacity: 0;
-  -webkit-transition: all 0.4s ease-in-out 0s;
-  -moz-transition: all 0.4s ease-in-out 0s;
-  transition: all 0.4s ease-in-out 0s; }
-
-.content:hover .content-overlay {
-  opacity: 1; }
-
-.content-image {
-  width: 100%; }
-
-.content-details {
-  position: absolute;
-  text-align: center;
-  padding-left: 1em;
-  padding-right: 1em;
-  width: 100%;
-  top: 50%;
-  left: 50%;
-  opacity: 0;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s; }
-
-.content:hover .content-details {
-  top: 50%;
-  left: 50%;
-  opacity: 1; }
-
-.content-details h3 {
-  color: #fff;
-  font-weight: 500;
-  letter-spacing: 0.15em;
-  margin-bottom: 0.5em;
-  text-transform: uppercase; }
-
-.content-details p {
-  color: #fff;
-  font-size: 0.8em; }
