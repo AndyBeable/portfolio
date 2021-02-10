@@ -1,10 +1,34 @@
 .work {
   &__wrapper {
     margin-bottom: 3rem;
+
+    @media screen and (min-width: 992px) {
+      display: flex;
+      margin-bottom: 0rem;
+    }
+  }
+
+  &__copy__wrapper {
+    background: #fff;
+    line-height: 2rem;
+
+    @media screen and (min-width: 992px) {
+      text-align: left;
+      padding: 5rem;
+    }
+  }
+
+  &__copy__wrapper.light {
+    background-color: black;
   }
 
   &__img__wrapper {
     margin-bottom: 2.5rem;
+    background-color: white;
+
+    @media screen and (min-width: 992px) {
+      margin-bottom: 0rem;
+    }
   }
 
   &__img {
