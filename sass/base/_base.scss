@@ -14,3 +14,20 @@ body {
 .icon:not(:last-of-type) {
   margin-right: 1rem;
 }
+
+.work__links {
+  text-align: center;
+}
+
+.work__links.light a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+  margin-right: 1.5rem;
+}
+.work__links.dark a {
+  text-decoration: none;
+  color: #000;
+  font-size: 30px;
+  margin-right: 1.5rem;
+}

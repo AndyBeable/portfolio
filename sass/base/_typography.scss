@@ -1,22 +1,19 @@
 .heading {
   &__primary {
-    color: black;
-    background-color: #fff;
-    padding: 5rem;
+    color: #fff;
     font-size: 5rem;
     text-transform: uppercase;
   }
 
   &__secondary {
+    text-align: center;
     text-transform: uppercase;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
   &__tertiary {
     text-transform: uppercase;
     margin-bottom: 1rem;
-
-    @media screen and (min-width: 992px) {
-    }
+    line-height: 2rem;
   }
 
   &__tertiary.light {
@@ -26,4 +23,5 @@
 
 .copy__light {
   color: #fff;
+  margin-bottom: 2rem;
 }
