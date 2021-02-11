@@ -87,40 +87,26 @@ body {
 .icon a {
   color: #4078c0; }
 
-.work__main__wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-
-.work__wrapper {
+.project {
   margin-bottom: 3rem; }
   @media screen and (min-width: 992px) {
-    .work__wrapper {
+    .project {
       display: flex;
       margin-bottom: 0rem; } }
+  .project__item--body {
+    padding: 2rem 2rem;
+    line-height: 2rem; }
+    @media screen and (min-width: 992px) {
+      .project__item--body {
+        padding: 5rem 5rem;
+        width: 70%; } }
+  .project__item--body h2 {
+    text-transform: uppercase; }
+  .project__item--figure img {
+    width: 100%;
+    height: auto; }
 
-.work__copy__wrapper {
-  background: #fff;
-  line-height: 2rem;
-  padding: 2rem; }
-
-.work__copy__wrapper.light {
-  background-color: black; }
-
-.work__img {
-  height: auto;
-  width: 100%; }
-
-.work__wrapper.photon {
-  display: flex;
-  flex-direction: column; }
-
-.work__wrapperphoton :nth-child(1) {
-  order: 2; }
-
-.photon :nth-child(1) {
-  order: 3; }
-
-.photon :nth-child(2) {
-  order: 2; }
+.dropped,
+.loop {
+  background-color: #000;
+  color: #ffff; }

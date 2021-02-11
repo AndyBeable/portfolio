@@ -1,0 +1,36 @@
+.project {
+  margin-bottom: 3rem;
+
+  @media screen and (min-width: 992px) {
+    display: flex;
+    margin-bottom: 0rem;
+  }
+
+  &__item {
+  }
+
+  &__item--body {
+    padding: 2rem 2rem;
+    line-height: 2rem;
+
+    @media screen and (min-width: 992px) {
+      padding: 5rem 5rem;
+      width: 70%;
+    }
+  }
+
+  &__item--body h2 {
+    text-transform: uppercase;
+  }
+
+  &__item--figure img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.dropped,
+.loop {
+  background-color: #000;
+  color: #ffff;
+}
