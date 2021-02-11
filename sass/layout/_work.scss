@@ -9,10 +9,10 @@
   &__wrapper {
     margin-bottom: 3rem;
 
-    // @media screen and (min-width: 992px) {
-    //   display: flex;
-    //   margin-bottom: 0rem;
-    // }
+    @media screen and (min-width: 992px) {
+      display: flex;
+      margin-bottom: 0rem;
+    }
   }
 
   &__copy__wrapper {

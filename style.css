@@ -29,7 +29,7 @@ body {
 
 .heading__primary {
   color: #fff;
-  font-size: 5rem;
+  font-size: 4rem;
   text-transform: uppercase; }
 
 .heading__secondary {
@@ -79,11 +79,13 @@ body {
   justify-content: center;
   align-items: center; }
 
-.skills {
-  margin-bottom: 3rem; }
-  .skills__wrapper {
-    display: flex;
-    justify-content: space-around; }
+@media screen and (min-width: 992px) {
+  .about__details__container {
+    width: 50%;
+    margin: 0 auto; } }
+
+.icon a {
+  color: #4078c0; }
 
 .work__main__wrapper {
   display: flex;
@@ -93,6 +95,10 @@ body {
 
 .work__wrapper {
   margin-bottom: 3rem; }
+  @media screen and (min-width: 992px) {
+    .work__wrapper {
+      display: flex;
+      margin-bottom: 0rem; } }
 
 .work__copy__wrapper {
   background: #fff;
