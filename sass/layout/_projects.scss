@@ -29,6 +29,12 @@
   }
 }
 
+.photon {
+  @media screen and (min-width: 992px) {
+    flex-direction: row-reverse;
+  }
+}
+
 .dropped,
 .loop {
   background-color: #000;

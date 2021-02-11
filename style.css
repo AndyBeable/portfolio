@@ -106,6 +106,10 @@ body {
     width: 100%;
     height: auto; }
 
+@media screen and (min-width: 992px) {
+  .photon {
+    flex-direction: row-reverse; } }
+
 .dropped,
 .loop {
   background-color: #000;
