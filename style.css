@@ -98,10 +98,11 @@ body {
     line-height: 2rem; }
     @media screen and (min-width: 992px) {
       .project__item--body {
-        padding: 5rem 5rem;
+        padding: 5rem 5rem 2rem 5rem;
         width: 70%; } }
   .project__item--body h2 {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin-bottom: 1.5rem; }
   .project__item--figure img {
     width: 100%;
     height: auto; }

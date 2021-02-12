@@ -42,9 +42,9 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">About</a>
-              <a class="nav-link" href="#">Work</a>
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#work">Work</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@
           </p>
         </div>
       </section>
-      <section class="about">
+      <section class="about" id="about">
         <div class="container">
           <div class="about__details__container">
             <div class="about__info">
@@ -93,7 +93,7 @@
         </div>
       </section>
 
-      <section class="work container">
+      <section class="work container" id="work">
         <div class="work__heading__container">
           <h2 class="heading__secondary">Work</h2>
         </div>
@@ -141,10 +141,34 @@
           </div>
         </div>
       </section>
-      <section class="contact container">
+      <section class="contact container" id="contact">
         <div class="work__heading__container">
           <h2 class="heading__secondary">Contact</h2>
         </div>
+        <form name="contact" method="POST" data-netlify="true">
+          <p>
+            <label>
+              Your Name:
+              <input type="text" name="name" />
+            </label>
+          </p>
+          <p>
+            <label>
+              Your Email:
+              <input type="email" name="email" />
+            </label>
+          </p>
+
+          <p>
+            <label>
+              Message:
+              <textarea name="message"></textarea>
+            </label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
       </section>
     </main>
 
