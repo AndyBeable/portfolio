@@ -85,7 +85,8 @@ body {
     margin: 0 auto; } }
 
 .icon a {
-  color: #4078c0; }
+  color: #000;
+  font-size: 30px; }
 
 .contact__heading__container {
   margin-top: 3rem;
