@@ -1,0 +1,17 @@
+:root {
+  --blue: #1b1d24;
+  --grey: #708090;
+  --white: #ffffff;
+  --gold: #dab53e;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+}
+
+body {
+  background-color: #f7f7f7;
+}
