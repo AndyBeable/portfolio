@@ -31,13 +31,13 @@ function About() {
                     building projects in React with a focus on accessiblity and
                     responsive design.
                   </p>
-                  <div class='about__links'>
+                  <div className='about__links'>
                     <a href={pdf} download>
                       <IoDocumentTextOutline />
                     </a>
 
                     <a
-                      href='https://github.com'
+                      href='https://github.com/AndyBeable'
                       target='_blank'
                       rel='noreferrer'
                     >
