@@ -23,11 +23,10 @@ function About() {
                 <div className='about__intro'>
                   <h3>Hello!</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna some
-                    more text aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor
+                    My name is Andy Beable and I'm a Frontend Web Developer who
+                    is passionate about using web technologies to build amazing
+                    things, writing clean code and learning new things.
+                    Currently building projects in React.
                   </p>
                   <a href={pdf} download>
                     <IoDocumentTextOutline />

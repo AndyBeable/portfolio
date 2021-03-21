@@ -19,13 +19,13 @@ function HeroSection() {
         >
           Latest Projects
        </Button> */}
-          <Button
+          {/* <Button
             className='btns'
             buttonStyle='btn--outline'
             buttonSize='btn--large'
           >
             More about me
-          </Button>
+          </Button> */}
         </div>
       </div>
     </div>
