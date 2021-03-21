@@ -27,9 +27,9 @@ function About() {
                   <p>
                     My name is Andy Beable and I'm a Frontend Web Developer who
                     is passionate about using web technologies to build
-                    projects, write clean code and learning new things.
-                    Currently building projects in React with a focus on
-                    accessiblity and responsive design.
+                    projects, write clean code and learn new things. Currently
+                    building projects in React with a focus on accessiblity and
+                    responsive design.
                   </p>
                   <div class='about__links'>
                     <a href={pdf} download>
@@ -52,6 +52,7 @@ function About() {
                     </a>
                   </div>
                 </div>
+
                 <div className='skills__container'>
                   <h3>Skills</h3>
                   <div className='about__skills'>
