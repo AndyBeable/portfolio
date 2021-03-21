@@ -35,9 +35,14 @@
   margin-bottom: 1rem;
 }
 
+.about__links {
+  text-align: center;
+}
+
 .about__intro a {
   text-decoration: none;
   color: #708090;
+  margin-right: 15px;
 }
 
 @media screen and (min-width: 768px) {
@@ -47,6 +52,10 @@
 
   .about__intro {
     width: 50%;
+  }
+
+  .about__links {
+    text-align: left;
   }
 
   .skills__container {
@@ -75,6 +84,7 @@
     font-size: 1.3rem;
     letter-spacing: 2px;
     line-height: 2.5rem;
+    margin-bottom: 2rem;
   }
 
   .about__skills {

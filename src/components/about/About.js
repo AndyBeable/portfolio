@@ -4,6 +4,8 @@ import pdf from '../../files/Andy-Beable-CV.pdf';
 import { IoDocumentTextOutline } from 'react-icons/io5';
 import { IconContext } from 'react-icons/lib';
 import { Element } from 'react-scroll';
+import { FaGithub } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 
 function About() {
   return (
@@ -24,13 +26,31 @@ function About() {
                   <h3>Hello!</h3>
                   <p>
                     My name is Andy Beable and I'm a Frontend Web Developer who
-                    is passionate about using web technologies to build amazing
-                    things, writing clean code and learning new things.
-                    Currently building projects in React.
+                    is passionate about using web technologies to build
+                    projects, write clean code and learning new things.
+                    Currently building projects in React with a focus on
+                    accessiblity and responsive design.
                   </p>
-                  <a href={pdf} download>
-                    <IoDocumentTextOutline />
-                  </a>
+                  <div class='about__links'>
+                    <a href={pdf} download>
+                      <IoDocumentTextOutline />
+                    </a>
+
+                    <a
+                      href='https://github.com'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      <FaGithub />
+                    </a>
+                    <a
+                      href='https://www.linkedin.com/in/andy-beable/'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      <FaLinkedin />
+                    </a>
+                  </div>
                 </div>
                 <div className='skills__container'>
                   <h3>Skills</h3>
