@@ -20,7 +20,7 @@ function About() {
         <IconContext.Provider
           value={{ style: { color: 'var(--blue)', fontSize: '35px' } }}
         >
-          <section>
+          <section data-aos='fade-up'>
             <div className='wrapper copy'>
               <h3>About</h3>
               <h1>Personal Info</h1>
