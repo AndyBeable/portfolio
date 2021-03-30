@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './About.css';
 import pdf from '../../files/Andy-Beable-CV.pdf';
 import { IoDocumentTextOutline } from 'react-icons/io5';
@@ -6,8 +6,14 @@ import { IconContext } from 'react-icons/lib';
 import { Element } from 'react-scroll';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 function About() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <>
       <Element id='about'>
