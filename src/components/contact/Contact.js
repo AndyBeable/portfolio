@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Button } from '../button/Button';
 import './Contact.css';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 function Contact({ buttonStyle, buttonLabel }) {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <>
-      <section className='wrapper copy' id='contact'>
+      <section data-aos='fade-up' className='wrapper copy' id='contact'>
         <h3>Contact</h3>
         <h1>Say Hello.</h1>
         <p className='contact__copy'>
