@@ -53,7 +53,9 @@ video {
   margin-top: 8px;
   margin-bottom: 1rem;
   color: var(--white);
-  font-size: 32px;
+  font-size: 20px;
+  letter-spacing: 2rem;
+  text-transform: uppercase;
 }
 
 .hero-btns .btn {
