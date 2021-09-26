@@ -17,7 +17,7 @@ function HeroSection() {
       <div className='hero-copy'>
         {/* <h3>Hello!</h3> */}
         <h1 data-aos='fade-right'>Andy Beable</h1>
-        <p data-aos='fade-right'>I am a Web Developer.</p>
+        <p data-aos='fade-right'>Web Developer</p>
         {/*<div className='hero-btns'>
            <Button
           className='btns'
